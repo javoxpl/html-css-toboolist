@@ -1,116 +1,168 @@
-* {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #444851;
-  
-  }
-  
-  h1 {
-    font-size: 50px;
-    color: #041931;
-  }
-  
-  
-  
-  header {
-    height: 96px;
-    padding: 10px;
-    display: flex;
-    align-items:center;
-    margin-left: 2%;
-  }
-  
-  
-  
-  .box{
-    width: 60%;
-    margin: auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-  
-  }
-  
-  .intern {
-    margin-left: 30px;
-  }
-  
-  
-  /******************************/
-  .bubble {
-    color: white;
-    border-radius: 20px;
-    margin-left: 0.2em;
-    padding: 0.6em 1em;
-    font-size: 10px;
-  
-  }
-  
-  .bbl{
-    border-radius: 8px;
-    padding: 10px 26px;
-    font-size: 14px;
-    margin: 8px 2px;
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Header con logo */
+h1 {
+    display: inline;
+    line-height: 100px;
     text-align: center;
-    text-decoration: none;
-  }
-  
-  .frst{
-    background-color: #47ADF1 ;
-    color: rgb(255, 255, 255);
-    border:none;
-  }
-  
-  .scnd{
+    vertical-align: sub;
+}
+#logo{
+    padding: 22px 5px;
+    vertical-align: middle;
+    line-height: 100px;
+    display: inline;
+    width: auto;
+    height: auto;
+}
+/* Main */
+main{
+    background-color: rgb(240, 240, 240);
+    height:auto;
+    padding-top: 50px;
+    padding-bottom: 12px;
+}
+/* div contenitore */
+.container{
     background-color: white;
-    color: #C5CBD0;
-    border: 2px solid #C5CBD0;
-  }
-  
-  
-  
-  
-  
-  /******************************/
-  
-  .wt {
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+
+/* Navigazione pulsanti */
+.bluBtn{
+    background-color: rgb(36, 160, 237);
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+}
+.whiteBtn{
     background-color: white;
-  }
-  
-  .gry {
-    background-color: #F6F8F9;
-  }
-  
-  .blue{
-    background-color: #47ADF1;
-  }
-  .violet{
-    background-color: #9C72E4;
-  }
-  .green{
-    background-color: #8BD0BF;
-  }
-  .gren{
-    background-color: #B0C926;
-  }
-  
-  .orange{
-    background-color: #F29E33;
-  }
-  .rez {
-    background-color: #D863A1;
-  
-  }
-  
-  /******************************/
-  
-  
-  
-  .center {
-    display: flex;
-    align-items:center;
-    padding: 6px;
-  
-  }
+    border: 1px solid rgb(214, 213, 210);
+    border-radius: 7px;
+    color: rgb(214, 213, 210);
+    font-weight: bold;
+    padding: 7px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;    
+}
+.pulsanti{
+    margin-left: 5%;
+    height: 45px;
+    padding-top: 5px;
+}
+nav{
+    border-bottom: 2px solid rgb(240, 240, 240);
+}
+/* Elementi To do */
+.todo{
+    margin-left: 5%;
+}
+ /* simboli */
+.check{
+    height: 20px;
+    width: 20px;
+    color: green;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid green;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    
+}
+.null{
+    height: 20px;
+    width: 20px;
+    color: red;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+/* etichette */
+.labelblu{
+    background-color: rgb(36, 160, 230);
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.labelviola{
+    background-color: rgb(158, 71, 240);
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer; 
+}
+.labelverde1{
+    background-color: rgb(17, 165, 121);
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer; 
+}
+.labelarancio{
+    background-color: rgb(228, 161, 36);
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.labelrosa{
+    background-color: rgb(190, 87, 136);
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.labelverde2{
+    background-color: rgb(126, 194, 47);
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;  
+    color: white;
+    margin-left: 1%;
+    padding: 5px 15px;
+    cursor: pointer;
+}
